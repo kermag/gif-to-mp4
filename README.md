@@ -1,5 +1,5 @@
 # gif-to-mp4
-What this code does : Convert gif file to mp4 file
+What this code does : Convert gif files to mp4 files
 
-what you have to do : Put the gif file you want to convert into input_folder.
+what you have to do : Put the gif files you want to convert into input_folder.
 {If the folder does not exist, create it}
