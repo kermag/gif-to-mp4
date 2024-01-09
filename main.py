@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-def gif_to_mp4(input_path, output_path): #퍼오기
+def gif_to_mp4(input_path, output_path): #ffmpeg
     try:
         # ffmpeg 명령어 생성
         command = [
@@ -36,9 +36,8 @@ def batch_convert_gif_to_mp4(input_folder, output_folder):
 
         gif_to_mp4(gif_path, mp4_path)
 
-#주소
-input_folder = r"C:/Users/jm/Desktop/gif to mp4/input_folder"
-output_folder = r"C:/Users/jm/Desktop/gif to mp4/output_folder"
+#address
+input_folder = " "
+output_folder = " "
 
-#변환
 batch_convert_gif_to_mp4(input_folder, output_folder)
